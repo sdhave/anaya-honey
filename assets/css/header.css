@@ -44,6 +44,7 @@
 .nav-link{
     text-decoration: none;
     font-size: 1rem;
+    color: black;
 }
 .nav-toggle{
     margin: .5rem;
