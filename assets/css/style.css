@@ -1,0 +1,80 @@
+/* DEFAULT SETTINGS */
+
+:root {
+    --border: 1px solid #CCC;
+}
+
+.bd { border: var(--border); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.main {
+    margin-top: 10vh;
+    padding: .5rem;
+}
+
+.section {
+    height: 90vh;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 80px auto;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
+.section-title {
+    text-align: center;
+}
+
+h3, p{
+    margin: .2rem;
+    padding: .5rem;
+}
+
+h1, h2{
+    text-align: center;
+    margin: .2rem;
+    padding: .5rem;
+    position: relative;
+}
+
+h1::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    background-color: blue;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .details-container{
+        border-radius: .5rem;
+        max-width: 70%;
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem auto;
+    }
+    .personal, .social{
+        margin: 1rem;
+        border: none;
+    }
+    .icons{
+        margin-bottom: .5rem;
+    }
+}
+
+.mh { max-height: 48vh; }
