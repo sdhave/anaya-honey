@@ -5,6 +5,8 @@
 }
 
 .bd { border: var(--border); }
+.m { margin: .2rem;}
+.p { padding: .2rem;}
 
 * {
     margin: 0;
@@ -23,7 +25,8 @@ body{
 }
 
 .section {
-    height: 90vh;
+    min-height: 90vh;
+    margin-top: 10vh;
 }
 
 .container{
@@ -64,7 +67,7 @@ h1::after{
 @media screen and (min-width: 768px) {
     .details-container{
         border-radius: .5rem;
-        max-width: 70%;
+        max-width: 75%;
         display: flex;
         justify-content: space-around;
         margin: 2rem auto;

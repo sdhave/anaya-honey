@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) {
+    .container {
+        border: none;
+    }
+
+    .team {
+        display: flex;
+    }
+
+    .member {
+        display: flex;
+        width: 49%;
+        border-radius: .2rem;
+    }
+
+    .m-img {
+        position: relative;
+        height: 30vh;
+        width: 15vw;
+        border: 3px solid goldenrod;
+        margin: .5rem;
+        /* background-color: goldenrod; */
+        border-radius: .2rem;
+    }
+
+    .m-img img {
+        position: absolute;
+        top: .5rem;
+        left: .5rem;
+        width: 100%;
+        height: 100%;
+        border-radius: .2rem;
+    }
+
+    .member-info {
+        padding: 1rem;
+    }
+
+    .member-info h5 {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .member-info p {
+        padding: 0;
+        margin: 0;
+        margin-top: .5rem;
+        font-style: italic;
+        font-size: .8rem;
+        line-height: 1.2rem;
+    }
+}
