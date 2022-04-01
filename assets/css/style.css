@@ -95,6 +95,8 @@ h1::after{
     border: none;
     justify-content: center;
     align-items: center;
+    max-width: 1024px;
+    margin: 1.8rem auto;
 }
 
 .welcome h2 {
