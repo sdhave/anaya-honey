@@ -55,7 +55,7 @@ h1, h2{
 h1::after{
     content: '';
     position: absolute;
-    width: 70%;
+    width: 74%;
     height: 4px;
     background-color: goldenrod;
     bottom: -10px;
