@@ -81,6 +81,10 @@
         margin-bottom: .5rem;
     }
 
+    .member-info h6 {
+        color: goldenrod;
+    }
+
     .member-info p {
         padding: 0;
         margin: 0;
