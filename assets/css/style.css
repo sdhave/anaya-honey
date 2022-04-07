@@ -100,7 +100,7 @@ h1::after{
     justify-content: center;
     align-items: center;
     max-width: 1024px;
-    margin: 1.8rem auto;
+    margin: 1rem auto;
 }
 
 .welcome h2 {

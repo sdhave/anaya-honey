@@ -10,3 +10,11 @@ footer{
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+
+
+/** its random i know but this file is the only import across all files too lazy to make a new file  reusebility baby**/
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #Fff;
+    color: #000;
+}
