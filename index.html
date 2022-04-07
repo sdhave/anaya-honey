@@ -3,34 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
     <link href="./assets/css/style.css" rel="stylesheet">
-    <link href="./assets/css/header.css" rel="stylesheet">
     <link href="./assets/css/footer.css" rel="stylesheet">
     <link href="./assets/css/mobile.css" rel="stylesheet">
     <link href="./assets/css/desktop.css" rel="stylesheet">
     <title>Anaya Honey</title>
 </head>
 <body>
-    <!-- HEADER -->
-    <header class="header">
-        <nav class="nav-bar">
-            <div><a href="index.html" class="nav-logo"><strong>Anaya <span style="color: goldenrod;">Honey</span></strong></a></div>
-            <div id="nav_menu" class="nav-menu">
-                <ul class="nav-list">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top clean-navbar" style="background-color: rgb(248, 245, 245);">
+        <div class="container"><a class="navbar-brand logo" href="index.html"><strong>Anaya <span style="color: goldenrod;">Honey</span></strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="products.html" class="nav-link">Our Products</a></li>
-                    <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
-                    <li class="nav-item"><a href="about-us.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                 </ul>
             </div>
-            <div id="nav_toggle" class="nav-toggle">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <!-- MAIN -->
     <main class="main">
         <!-- HERO SECTION -->
@@ -188,5 +185,9 @@
         <p>&#169; 2022 copyright all right reserved</p>
     </footer>
     <!-- SCRIPTS -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 </html>
