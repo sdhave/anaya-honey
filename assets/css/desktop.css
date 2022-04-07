@@ -9,7 +9,7 @@
     }
 
     .product {
-        border: 1px solid goldenrod;
+        border: 1px solid orange;
         border-radius: .2rem;
         padding: .2rem;
         margin: .2rem;
@@ -56,9 +56,9 @@
         position: relative;
         height: 30vh;
         width: 15vw;
-        border: 3px solid goldenrod;
+        border: 3px solid orange;
         margin: .5rem;
-        /* background-color: goldenrod; */
+        /* background-color: orange; */
         border-radius: .2rem;
     }
 
@@ -82,7 +82,7 @@
     }
 
     .member-info h6 {
-        color: goldenrod;
+        color: orange;
     }
 
     .member-info p {

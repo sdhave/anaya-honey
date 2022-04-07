@@ -57,7 +57,7 @@ h1::after{
     position: absolute;
     width: 74%;
     height: 4px;
-    background-color: goldenrod;
+    background-color: orange;
     bottom: -10px;
     left: 0;
     right: 0;

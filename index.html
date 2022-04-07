@@ -26,7 +26,7 @@
             <div id="navcol-1" class="collapse navbar-collapse text-start">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="features.html">our products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">our products</a></li>
                     <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                 </ul>
@@ -58,41 +58,19 @@
         <!-- PRODUCTS SECTION -->
         <section class="section" id="products">
             <h1 class="section-title">A Selection Of Our Products</h1>
-            <div class="container p">
-                <div class="product">
-                    <div class="pro-img">
-                        <img src="./assets/images/pure-honey.jpg" alt="">
+            <div class="container text-center">
+                <div id="carousel-1" class="carousel slide carousel-fade" data-bs-ride="carousel" style="width: 100%;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item"><img class="img-fluid w-100 d-block" src="assets/images/anaya.jpg" alt="Slide Image" /></div>
+                        <div class="carousel-item active"><img class="w-100 d-block" src="assets/images/bars.jpg" alt="Slide Image" width="500px" /></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="assets/images/anajar.jpg" alt="Slide Image" /></div>
                     </div>
-                    <div class="pro-info">
-                        <h5>100% Pure Honey</h5>
-                        <h6>Some additional info</h6>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="pro-img">
-                        <img src="./assets/images/honey-lotion.jpg" alt="">
-                    </div>
-                    <div class="pro-info">
-                        <h5>Honey and Lemongrass Body Butter</h5>
-                        <h6>Some additional info</h6>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="pro-img">
-                        <img src="./assets/images/creamed-honey.jpeg" alt="">
-                    </div>
-                    <div class="pro-info">
-                        <h5>Original Creamed Honey</h5>
-                        <h6>Some additional info</h6>
-                    </div>
-                </div><div class="product">
-                    <div class="pro-img">
-                        <img src="./assets/images/herbal-infused-honey.jpeg" alt="">
-                    </div>
-                    <div class="pro-info">
-                        <h5>Herbal Infused Honey</h5>
-                        <h6>Some additional info</h6>
-                    </div>
+                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+                        <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                    </ol>
                 </div>
             </div>
         </section>
